@@ -17,15 +17,13 @@ Key characteristics:
 
 
 ## Setup and Installation 
-1. Clone the repository:
 ```bash
-git clone https://github.com/sSODAs/CNN-Face-Mask-Detection.git
-cd CNN-Face-Mask-Detection
-```
+# Clone the repository:
+$ git clone https://github.com/sSODAs/CNN-Face-Mask-Detection.git
+$ cd CNN-Face-Mask-Detection
 
-2. Install Dependencies:
-```bash
-pip install -r requirements.txt
+# Install Dependencies:
+$ pip install -r requirements.txt
 ```
 Main libraries used:
 - TensorFlow / Keras
@@ -34,12 +32,10 @@ Main libraries used:
 - NumPy, Matplotlib, scikit-learn
 
 ## Running the Project
-Train the Model
 ```bash
-python MaskDetection.py
-```
+# Train the Model
+$ python MaskDetection.py
 
-Run Real-Time Mask Detection
-```bash
-python TestModel.py
+# Run Real-Time Mask Detection
+$ python TestModel.py
 ```
